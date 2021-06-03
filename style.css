@@ -1,0 +1,28 @@
+.items{
+    border: 1px solid;
+    border-color: magenta;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+#countries{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr) ;
+   gap: 50px;
+}
+
+.info-items{
+    margin-left: 800px;
+    
+}
+.info-items img {
+    width: 200px;
+    height: 200px;
+}
